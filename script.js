@@ -20,7 +20,7 @@
 //     console.log(item);
 // };
 
-// // ამოცანა 3 
+// // ამოცანა 3
 
 // let numbers = [5, 6, 10, 25, 3, 7, 4, 100, 28, 36, 89];
 
@@ -40,15 +40,15 @@
 // let giorgi = {
 //     Name: "giorgi",
 //     Age: 20,
-//     StudentStatus: "Active"
+//     StudentStatus: "active"
 // }
 // if (giorgi.Age < 18) {
 //     console.log(hello);
-// }; else if (giorgi.Name == "levani"); {
+// } else if (giorgi.Name == "levani") {
 //     console.log("hello levan");
-// }; else if (giorgi.Age < 25 || StudentStatus == "active"){
+// } else if (giorgi.Age < 25 && giorgi.StudentStatus == "active"){
 //     console.log("hello world")
-// }; else {
+// } else {
 //     console.log("error");
 // }
 
@@ -60,11 +60,10 @@
 // // ამოცანა 5
 // let fruts = ['watermelon', 'pear', 10, 45, 50, "banana", 'ananas']
 // for (let item of fruts) {
-//     if (typeof item == "string")
+//     if (typeof item === "string")
 //         console.log(item);
 // };
 
-// number-ის შემთხვევაში მუშაობს და string ტიპის შემთხვევაში გამოაქვს ჯერ სიტყვიერი მნიშვნელობები და შემდეგ ციფრები, რატომ?
 
 // // ამოცანა 6 - ?????
 // let massive = [[2, -3, 5, 10], [25, -24, -11, 100], [-6, -7, 10]];
@@ -76,24 +75,19 @@
 //     }
 // }
 
-
-
-
-
-
 // // ამოცანა 7
 
 // let Array = [2, 3, 5, 10, 25, 24, 11, 100, 6, 7, 10]
-// for (let element of array) {
+// for (let element of Array) {
 //     if (element % 2 == 0)
 //         console.log(element);
 // };
-// for (let element of array) {
+// for (let element of Array) {
 //     if (element % 2 == 1)
 //         console.log(element);
 // };
 
-// ამოცანა 8 
+// ამოცანა 8
 // let users = [
 //     { username: 'giorgi', status: false },
 //     { username: 'levani', status: false },
